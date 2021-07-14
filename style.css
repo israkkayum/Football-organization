@@ -208,13 +208,23 @@ img.banner{
     width: 567px;
     height: 427px;
 }
+
+/* Highlights container section end */
+ 
+/* Footer section */
 footer{
     padding-top: 158px;
 }
+
+   /* footer > footer-logo > img */
+
 .footer-logo img{
     width: 483.87px;
     height: 110px;
 }
+
+    /* Fontawesome stylesheet */
+
 .fab{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -230,6 +240,10 @@ footer{
     color: #000000;
     padding-bottom: 63px;
 }
+
+/* Footer end */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 992px) {
     nav{
@@ -292,6 +306,9 @@ footer{
     }
 
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
     
     nav{
@@ -356,6 +373,7 @@ footer{
 
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width:1200px) {
   
@@ -408,7 +426,5 @@ footer{
         width: 567px;
         height: 427px;
     }
-
-}
 
 }
