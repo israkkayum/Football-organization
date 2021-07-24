@@ -304,12 +304,16 @@ footer{
         width: 100%;
         height: 427px;
     }
+    .footer-logo img{
+        width: 200px;
+        height: 110px;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px){
     
     nav{
         padding: 42px 50px 49px 50px;
@@ -338,6 +342,7 @@ footer{
      }
       .header-banner{
           background-position: center;
+          border-radius: 20px;
       }
       img.football{
         left: 40%;
@@ -368,62 +373,6 @@ footer{
     }
     .highlight-photo img{
         width: 100%;
-        height: 427px;
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width:1200px) {
-  
-    nav{
-        padding: 42px 122px 49px 130px;
-    }
-    .list{
-        display: flex;
-    }
-   .menu{
-      display: none;
-   } 
-     .header-section{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding-left: 156px;
-        padding-right: 105px;
-        padding-bottom: 50px;
-        grid-column-gap: 102px;
-        align-items: center;
-     }
-      img.football{
-        left: 155px;
-        
-    }
-    img.banner{
-        padding-left: 100px;
-    }
-
-      .players-container{
-        padding: 70px 210px 70px 160px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 27px;
-      }
-      .player-box{
-        width: 330px;
-    }
-    .player-details img{
-        width: 300px;
-    }
-    .highlight-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 66px;
-        padding: 140px 156px 158px 182px;
-    }
-    .highlight-photo img{
-        width: 567px;
         height: 427px;
     }
 
